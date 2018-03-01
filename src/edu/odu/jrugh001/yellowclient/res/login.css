@@ -1,0 +1,47 @@
+.root {
+	-fx-background: rgb(57, 62, 68);
+}
+
+#emailField, #passwordField {
+	-fx-control-inner-background: rgb(71, 74, 79);
+	-fx-text-box-border: rgb(116, 166, 247);
+	-fx-prompt-text-fill: gray;
+	-fx-text-fill: white;
+	-fx-font-size: 15;
+}
+
+#loginLabel {
+	-fx-font-size: 17;
+}
+
+#loginButton {
+	-fx-text-fill: white;
+	-fx-background-color: rgb(98, 150, 234);
+	-fx-font-size: 17;
+}
+
+#topPane {
+	-fx-background-color: rgb(30, 31, 33);
+}
+
+#exitButton, #minimizeButton {
+	-fx-text-fill: rgb(180, 185, 193);
+	-fx-border-color: transparent;
+	-fx-background-color: transparent;
+	-fx-font-size: 15;
+}
+
+#exitButton:hover, #minimizeButton:hover {
+	-fx-cursor: hand;
+	-fx-text-fill: white;
+}
+
+#topLabel {
+	-fx-text-fill: rgb(159, 165, 173);
+	-fx-font-size: 15;
+	-fx-font-family: Serif;
+}
+
+#minimizeButton {
+	-fx-font-size: 20;
+}

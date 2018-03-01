@@ -1,0 +1,85 @@
+.root {
+	-fx-background: rgb(57, 62, 68);
+}
+
+#displayChatBox {
+	-fx-control-inner-background: transparent;
+	-fx-font-size: 15;
+}
+
+#displayChatBox:focused {
+	-fx-control-inner-background: transparent;
+    -fx-background-insets: 0, 1, 2;
+}
+
+#sendMessageInput {
+	-fx-control-inner-background: rgb(71, 74, 79);
+	-fx-text-box-border: rgb(116, 166, 247);
+	-fx-prompt-text-fill: gray;
+	-fx-text-fill: white;
+	-fx-font-size: 15;
+}
+
+#left_pane {
+	-fx-background-color: rgb(66, 71, 77);
+}
+
+#messageScrollPane {
+	-fx-background-color: transparent;
+}
+
+.track {
+	-fx-background-color: rgb(88, 93, 102);
+}
+
+.thumb {
+	-fx-background-color: rgb(22, 23, 25);
+}
+
+.increment-button, .increment-arrow, .decrement-button, .decrement-arrow {
+	-fx-padding:0;
+    -fx-opacity: 0;
+}
+
+#users_label {
+	-fx-font-size: 22;
+}
+
+#topPane {
+	-fx-background-color: rgb(30, 31, 33);
+}
+
+#exitButton, #minimizeButton {
+	-fx-text-fill: rgb(180, 185, 193);
+	-fx-border-color: transparent;
+	-fx-background-color: transparent;
+	-fx-font-size: 15;
+}
+
+#exitButton:hover, #minimizeButton:hover {
+	-fx-cursor: hand;
+	-fx-text-fill: white;
+}
+
+#minimizeButton {
+	-fx-font-size: 20;
+}
+
+#topLabel {
+	-fx-text-fill: rgb(159, 165, 173);
+	-fx-font-size: 15;
+	-fx-font-family: Serif;
+}
+
+#onlineScrollPane {
+	-fx-background-color: transparent;
+}
+
+#toolsBar {
+	-fx-background-color: rgb(79, 84, 91);
+}
+
+#onlineUserPane Label {
+	-fx-text-fill: gray;
+	-fx-font-size: 18;
+}
